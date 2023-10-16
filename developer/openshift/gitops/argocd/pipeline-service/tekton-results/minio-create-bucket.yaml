@@ -61,10 +61,10 @@ spec:
           resources:
             requests:
               cpu: 5m
-              memory: 64Mi
+              memory: 15Mi
             limits:
-              cpu: 500m
-              memory: 128Mi
+              cpu: 5m
+              memory: 15Mi
           securityContext:
             readOnlyRootFilesystem: true
             runAsNonRoot: true
